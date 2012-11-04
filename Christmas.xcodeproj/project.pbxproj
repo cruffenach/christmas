@@ -18,6 +18,15 @@
 		0B17EAD81645A1A000FE6931 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B17EAD71645A1A000FE6931 /* Default@2x.png */; };
 		0B17EADA1645A1A000FE6931 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B17EAD91645A1A000FE6931 /* Default-568h@2x.png */; };
 		0B17EADD1645A1A000FE6931 /* Christmas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B17EADB1645A1A000FE6931 /* Christmas.xcdatamodeld */; };
+		0B17EB781645A32A00FE6931 /* CCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B17EB761645A32A00FE6931 /* CCRootViewController.m */; };
+		0B17EB791645A32A00FE6931 /* CCRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B17EB771645A32A00FE6931 /* CCRootViewController.xib */; };
+		0BC646451645BE7600B4CB7C /* NSBundle+SYPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC646381645BE7600B4CB7C /* NSBundle+SYPaginator.m */; };
+		0BC646461645BE7600B4CB7C /* SYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6463A1645BE7600B4CB7C /* SYPageControl.m */; };
+		0BC646471645BE7600B4CB7C /* SYPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6463C1645BE7600B4CB7C /* SYPageView.m */; };
+		0BC646481645BE7600B4CB7C /* SYPaginatorResources-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BC6463E1645BE7600B4CB7C /* SYPaginatorResources-Info.plist */; };
+		0BC646491645BE7600B4CB7C /* SYPaginatorScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC646401645BE7600B4CB7C /* SYPaginatorScrollView.m */; };
+		0BC6464A1645BE7600B4CB7C /* SYPaginatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC646421645BE7600B4CB7C /* SYPaginatorView.m */; };
+		0BC6464B1645BE7600B4CB7C /* SYPaginatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC646441645BE7600B4CB7C /* SYPaginatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,23 @@
 		0B17EAD71645A1A000FE6931 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0B17EAD91645A1A000FE6931 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0B17EADC1645A1A000FE6931 /* Christmas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Christmas.xcdatamodel; sourceTree = "<group>"; };
+		0B17EB751645A32A00FE6931 /* CCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRootViewController.h; sourceTree = "<group>"; };
+		0B17EB761645A32A00FE6931 /* CCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRootViewController.m; sourceTree = "<group>"; };
+		0B17EB771645A32A00FE6931 /* CCRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCRootViewController.xib; sourceTree = "<group>"; };
+		0BC646371645BE7600B4CB7C /* NSBundle+SYPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SYPaginator.h"; sourceTree = "<group>"; };
+		0BC646381645BE7600B4CB7C /* NSBundle+SYPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SYPaginator.m"; sourceTree = "<group>"; };
+		0BC646391645BE7600B4CB7C /* SYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPageControl.h; sourceTree = "<group>"; };
+		0BC6463A1645BE7600B4CB7C /* SYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPageControl.m; sourceTree = "<group>"; };
+		0BC6463B1645BE7600B4CB7C /* SYPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPageView.h; sourceTree = "<group>"; };
+		0BC6463C1645BE7600B4CB7C /* SYPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPageView.m; sourceTree = "<group>"; };
+		0BC6463D1645BE7600B4CB7C /* SYPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPaginator.h; sourceTree = "<group>"; };
+		0BC6463E1645BE7600B4CB7C /* SYPaginatorResources-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SYPaginatorResources-Info.plist"; sourceTree = "<group>"; };
+		0BC6463F1645BE7600B4CB7C /* SYPaginatorScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPaginatorScrollView.h; sourceTree = "<group>"; };
+		0BC646401645BE7600B4CB7C /* SYPaginatorScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPaginatorScrollView.m; sourceTree = "<group>"; };
+		0BC646411645BE7600B4CB7C /* SYPaginatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPaginatorView.h; sourceTree = "<group>"; };
+		0BC646421645BE7600B4CB7C /* SYPaginatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPaginatorView.m; sourceTree = "<group>"; };
+		0BC646431645BE7600B4CB7C /* SYPaginatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPaginatorViewController.h; sourceTree = "<group>"; };
+		0BC646441645BE7600B4CB7C /* SYPaginatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPaginatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +112,9 @@
 			children = (
 				0B17EAD21645A1A000FE6931 /* CCAppDelegate.h */,
 				0B17EAD31645A1A000FE6931 /* CCAppDelegate.m */,
+				0B17EB751645A32A00FE6931 /* CCRootViewController.h */,
+				0B17EB761645A32A00FE6931 /* CCRootViewController.m */,
+				0B17EB771645A32A00FE6931 /* CCRootViewController.xib */,
 				0B17EADB1645A1A000FE6931 /* Christmas.xcdatamodeld */,
 				0B17EACA1645A1A000FE6931 /* Supporting Files */,
 			);
@@ -95,6 +124,7 @@
 		0B17EACA1645A1A000FE6931 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0BC646361645BE7600B4CB7C /* SYPaginator */,
 				0B17EACB1645A1A000FE6931 /* Christmas-Info.plist */,
 				0B17EACC1645A1A000FE6931 /* InfoPlist.strings */,
 				0B17EACF1645A1A000FE6931 /* main.m */,
@@ -105,6 +135,28 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		0BC646361645BE7600B4CB7C /* SYPaginator */ = {
+			isa = PBXGroup;
+			children = (
+				0BC646371645BE7600B4CB7C /* NSBundle+SYPaginator.h */,
+				0BC646381645BE7600B4CB7C /* NSBundle+SYPaginator.m */,
+				0BC646391645BE7600B4CB7C /* SYPageControl.h */,
+				0BC6463A1645BE7600B4CB7C /* SYPageControl.m */,
+				0BC6463B1645BE7600B4CB7C /* SYPageView.h */,
+				0BC6463C1645BE7600B4CB7C /* SYPageView.m */,
+				0BC6463D1645BE7600B4CB7C /* SYPaginator.h */,
+				0BC6463E1645BE7600B4CB7C /* SYPaginatorResources-Info.plist */,
+				0BC6463F1645BE7600B4CB7C /* SYPaginatorScrollView.h */,
+				0BC646401645BE7600B4CB7C /* SYPaginatorScrollView.m */,
+				0BC646411645BE7600B4CB7C /* SYPaginatorView.h */,
+				0BC646421645BE7600B4CB7C /* SYPaginatorView.m */,
+				0BC646431645BE7600B4CB7C /* SYPaginatorViewController.h */,
+				0BC646441645BE7600B4CB7C /* SYPaginatorViewController.m */,
+			);
+			name = SYPaginator;
+			path = Vendor/SYPaginator/SYPaginator;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -142,6 +194,21 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				es,
+				fr,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				pt,
+				pt_PT,
+				ru,
+				sv,
+				zh_Hans,
+				zh_Hant,
 			);
 			mainGroup = 0B17EAB21645A19F00FE6931;
 			productRefGroup = 0B17EABE1645A19F00FE6931 /* Products */;
@@ -162,6 +229,8 @@
 				0B17EAD61645A1A000FE6931 /* Default.png in Resources */,
 				0B17EAD81645A1A000FE6931 /* Default@2x.png in Resources */,
 				0B17EADA1645A1A000FE6931 /* Default-568h@2x.png in Resources */,
+				0B17EB791645A32A00FE6931 /* CCRootViewController.xib in Resources */,
+				0BC646481645BE7600B4CB7C /* SYPaginatorResources-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +244,13 @@
 				0B17EAD01645A1A000FE6931 /* main.m in Sources */,
 				0B17EAD41645A1A000FE6931 /* CCAppDelegate.m in Sources */,
 				0B17EADD1645A1A000FE6931 /* Christmas.xcdatamodeld in Sources */,
+				0B17EB781645A32A00FE6931 /* CCRootViewController.m in Sources */,
+				0BC646451645BE7600B4CB7C /* NSBundle+SYPaginator.m in Sources */,
+				0BC646461645BE7600B4CB7C /* SYPageControl.m in Sources */,
+				0BC646471645BE7600B4CB7C /* SYPageView.m in Sources */,
+				0BC646491645BE7600B4CB7C /* SYPaginatorScrollView.m in Sources */,
+				0BC6464A1645BE7600B4CB7C /* SYPaginatorView.m in Sources */,
+				0BC6464B1645BE7600B4CB7C /* SYPaginatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +323,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Christmas/Christmas-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../\"";
 				INFOPLIST_FILE = "Christmas/Christmas-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,7 +339,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Christmas/Christmas-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../\"";
 				INFOPLIST_FILE = "Christmas/Christmas-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -283,6 +369,7 @@
 				0B17EAE21645A1A000FE6931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

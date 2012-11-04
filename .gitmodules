@@ -1,0 +1,3 @@
+[submodule "Vendor/SYPaginator"]
+	path = Vendor/SYPaginator
+	url = https://github.com/Synthetic/SYPaginator.git
